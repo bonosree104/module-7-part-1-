@@ -13,3 +13,18 @@
     overflow: scroll;
     border-radius: 20px;
 }
+.box1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+
+}
+
+.outer{
+    background-color: seagreen;
+}
+.inner{
+    background-color: sienna;
+    transform: rotate (30deg);
+    transform: scale(.5);
+}
