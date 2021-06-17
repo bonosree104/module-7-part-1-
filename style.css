@@ -1,0 +1,15 @@
+.box{
+    width:400px;
+    height: 200px;
+    border: 10px solid purple;
+    overflow: scroll;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.box2{
+    width:400px;
+    height: 200px;
+    border: 10px solid purple;
+    overflow: scroll;
+    border-radius: 20px;
+}
