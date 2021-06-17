@@ -28,3 +28,61 @@
     transform: rotate (30deg);
     transform: scale(.5);
 }
+.transition{
+    width: 200px;
+    height:200px;
+    border:  2px solid green;
+    background-color: blue;
+    transition: background-color 5s ease 3s;
+ 
+}
+.transition:hover{
+    background-color: hotpink;
+    width:1000px;
+}
+.bat{
+transition: transform .2s ease-in-out;
+}
+.bat:hover{
+    transform: rotate(-120deg);
+    transition: 100%  0%;
+}
+.ball{
+    width:25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    left:130px;
+}
+.field:hover .ball{
+    transform: translate(1000px, -200px);
+}
+.stage{
+ background-color: mediumseagreen;
+ height: 200px;
+ min-width:800px;
+}
+.ball12{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: maroon;
+    position: absolute;
+}
+@keyframes slidein {
+    0%{
+        left:0;
+    }
+    50%{
+       left: 400px;
+    }
+    100%{
+        left:800px;
+    }
+    
+
+}
+.stage:hover .ball12{
+  animation: slidein 3s ease-in-out 1s infinite alternate ;
+}
