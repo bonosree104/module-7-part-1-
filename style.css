@@ -86,3 +86,15 @@ transition: transform .2s ease-in-out;
 .stage:hover .ball12{
   animation: slidein 3s ease-in-out 1s infinite alternate ;
 }
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-box{
+    width:300px; 
+    height: 200px;
+    border: 5px solid blueviolet;
+    border-radius: 20px;
+    font-size: 40px;
+}
