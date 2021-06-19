@@ -98,3 +98,11 @@ transition: transform .2s ease-in-out;
     border-radius: 20px;
     font-size: 40px;
 }
+.grid{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 350px);
+}
+.box-size{
+    border:3px solid purple;
+}
