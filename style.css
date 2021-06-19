@@ -122,3 +122,15 @@ transition: transform .2s ease-in-out;
  li.other-month{
     background-color:aquamarine;
 }
+.fruit{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.food{
+    border:3px solid cyan;
+    border-radius: 20px;
+    margin: 10px;
+    width:350px;
+}
