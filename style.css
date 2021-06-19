@@ -106,3 +106,19 @@ transition: transform .2s ease-in-out;
 .box-size{
     border:3px solid purple;
 }
+.calender ul{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap:1em;
+}
+.calender li{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size:25px;
+    background-color: darkslateblue;
+    height: 90px;
+}
+ li.other-month{
+    background-color:aquamarine;
+}
